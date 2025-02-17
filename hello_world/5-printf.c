@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - programme d'entree du programme
- * printf: afficher le message entre parenthese
- * return: 0 si le code fonctionne
+ * main - point d'entree du programme
+ *
+ * Return: 0 si le code fonctionne
  */
 int main(void)
 {
