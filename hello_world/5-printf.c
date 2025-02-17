@@ -2,7 +2,7 @@
 /**
  * main: programme d'entree du programme
  * printf: afficher le message entre parenthese
- * return: si le code fonctionne
+ * return: 0 si le code fonctionne
  */
 int main(void)
 {
