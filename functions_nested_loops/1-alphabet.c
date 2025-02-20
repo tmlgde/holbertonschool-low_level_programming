@@ -1,9 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
+ * print_alphabet: imprimer l'alphabet grace a la fonction
  *
- * Return: Always 0.
  */
 
 void print_alphabet(void)
