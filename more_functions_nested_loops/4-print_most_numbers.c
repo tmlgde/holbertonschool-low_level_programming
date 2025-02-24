@@ -3,15 +3,16 @@
 /**
  * print_most_numbers - Affiche les chiffres de 0 à 9, en excluant 2 et 4.
  *
- * Description: Cette fonction affiche les chiffres de 0 à 9, sauf les chiffres
- * 2 et 4, suivis d'un saut de ligne. Elle utilise la fonction _putchar pour afficher
+ * Description: Cette fonction affiche chiffres de 0 à 9, sauf les chiffres
+ * 2 et 4, suivis saut de ligne. Elle utilise fonction _putchar pour afficher
  * chaque chiffre.
  */
 void print_most_numbers(void)
 {
 	int a;
+
 	for (a = 0; a <= 9; a++)
-		if ( a != 2 && a != 4)
+		if (a != 2 && a != 4)
 		{
 			_putchar(a + '0');
 		}
