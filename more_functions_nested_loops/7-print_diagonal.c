@@ -1,5 +1,13 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * print_diagonal - Affiche une diagonale de caractères \ sur le terminal.
+ * @n: Le nombre de fois que \ doit être imprimé sur la diagonale.
+ *
+ * Description: Cette fonction imprime une diagonale de caractères \,
+ * chaque ligne ayant un nombre croissant d'espaces avant le caractère \.
+ * Si n est inférieur ou égal à 0, un seul saut de ligne est imprimé.
+ */
 
 void print_diagonal(int n)
 {
