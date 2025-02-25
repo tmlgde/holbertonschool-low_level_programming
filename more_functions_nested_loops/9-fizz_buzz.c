@@ -20,13 +20,13 @@ int main(void)
 		{
 			printf("Fizz Buzz");
 		}
-		else if (a % 5 == 0)
-		{
-			printf("Buzz");
-		}
 		else if (a % 3 == 0)
 		{
 			printf("Fizz");
+		}
+		else if (a % 5 == 0)
+		{
+			printf("Buzz");
 		}
 		else
 		{
