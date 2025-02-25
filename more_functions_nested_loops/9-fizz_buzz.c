@@ -18,21 +18,24 @@ int main(void)
 	{
 		if (a % 5 && 3 == 0)
 		{
-			printf("Fizz Buzz ");
+			printf("Fizz Buzz");
 		}
 		if (a % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else if (a % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else
 		{
 			printf("%d", a);
 		}
-		putchar(' ');
+		if (a != 100)
+		{
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
