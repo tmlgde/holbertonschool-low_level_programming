@@ -1,5 +1,15 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point of the program
+ *
+ * Description: Prints numbers from 1 to 100, but for multiples of
+ * 3, print "Fizz" instead of the number, and for multiples of 5, 
+ * print "Buzz". For numbers that are multiples of both 3 and 5, 
+ * print "Fizz Buzz". Otherwise, print the number itself.
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	int a;
