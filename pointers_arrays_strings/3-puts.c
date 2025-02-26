@@ -5,7 +5,7 @@
  * @str: Pointeur vers la chaîne de caractères à afficher.
  *
  * Description: Cette fonction prend une chaîne de caractères en paramètre
- * et l'affiche caractère par caractère, puis ajoute un saut de ligne à la fin.
+ * et l'affiche caractère par caractère, puis ajoute un saut de lign�la fin.
  */
 void _puts(char *str)
 {
