@@ -6,7 +6,7 @@
  * @s: La chaîne de caractères à afficher en sens inverse.
  *
  * Description: Cette fonction prend une chaîne de caractères et l'affiche
- * caractère par caractère en sens inverse. Elle utilise deux boucles 
+ * caractère par caractère en sens inverse. Elle utilise deux boucs
  * `for` pour parcourir la chaîne et l'afficher dans l'ordre inverse.
  */
 void print_rev(char *s)
