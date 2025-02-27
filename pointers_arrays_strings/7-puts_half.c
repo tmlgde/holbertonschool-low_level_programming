@@ -22,7 +22,8 @@ void puts_half(char *str)
 			_putchar(str[start]);
 			start++;
 		}
-		else (length % 2 != 0)
+	}
+	if (length % 2 != 0)
 		{
 			int n = ((length + 1) / 2);
 
@@ -31,7 +32,6 @@ void puts_half(char *str)
 				_putchar(str[n]);
 				n++;
 			}
-		}
 	}
 	_putchar ('\n');
 }
