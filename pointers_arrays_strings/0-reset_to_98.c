@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * reset_to_98 - Modifie la valeur de l'entier pointé par 
+ * reset_to_98 - Modifie la valeur de l'entier pointé pr
  * @n: Pointeur vers l'entier dont la valeur doit être modifié
  *
  * Description: Cette fonction prend un pointeur vers un entier et modifie
