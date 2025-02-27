@@ -23,9 +23,9 @@ void puts_half(char *str)
 			start++;
 		}
 	}
-	if (length % 2 != 0)
-		{
-			int n = ((length + 1) / 2);
+	else if (length % 2 != 0)
+	{
+		int n = ((length + 1) / 2);
 
 			while (str[n])
 			{
