@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * leet - function that encodes a string
- *@s: string
- * Return: s's value
-*/
+ * leet - Remplace certaines lettres par des chiffres dans une chaîne.
+ * @str: La chaîne à modifier.
+ *
+ * Return: La chaîne modifiée.
+ */
 
 char *leet(char *str)
 {
