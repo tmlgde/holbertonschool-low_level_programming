@@ -18,7 +18,19 @@ char *cap_string(char *str)
 
 	for (i = 1; str[i] != '\0'; i++)
 	{
-		if (str[i] == ' ' || str[i] == ',' || str[i] == ';' || str[i] == '.' || str[i] == '!' || str[i] == '?' || str[i] == '"' || str[i] == '(' || str[i] == ')' || str[i] == '{' || str[i] == '}' || str[i] == '\n' || str[i] == '\t')
+		if (str[i] == ' ' ||
+		str[i] == ',' ||
+		str[i] == ';' ||
+		str[i] == '.' ||
+		str[i] == '!' ||
+		str[i] == '?' ||
+		str[i] == '"' ||
+		str[i] == '(' ||
+		str[i] == ')' ||
+		str[i] == '{' ||
+		str[i] == '}' ||
+		str[i] == '\n' ||
+		str[i] == '\t')
 		{
 			if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 			{
