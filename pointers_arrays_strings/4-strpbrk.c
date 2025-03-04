@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strspn - Gets the length of a prefix substring.
- * @s: The string to search.
+ * _strpbrk - Searches a string for any of a set of bytes.
+ * @s: The string to be searched.
  * @accept: The set of characters to match.
  *
- * Return: The number of bytes in the initial segment of s
- *         that consist only of bytes from accept.
+ * Return: Pointer to the first occurrence of any character from accept
+ *         in the string s, or NULL if no match is found.
  */
 char *_strpbrk(char *s, char *accept)
 {
