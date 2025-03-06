@@ -4,7 +4,7 @@
  * @argc: Nombre d'arguments (non utilisé)
  * @argv: Tableau des arguments
  *
- * Retour: 0 si succès
+ * Retour: 0 pour indiquer un succès
  */
 int main(int argc, char *argv[])
 {
