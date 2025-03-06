@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
  * main - Affiche le nom du programme
- * @argc: Nombre d'arguments (non utilisé)
- * @argv: Tableau des arguments
+ * @argc: Nombre d'arguments
+ * @argv: Tableau des arguments (non utilisé)
  *
- * Retour: 0 pour indiquer un succès
+ * Return: 0 si le programme s'exécute avec succès
  */
 int main(int argc, char *argv[])
 {
 	(void) argc;
 	printf("%s\n", argv[0]);
-		return (0);
+
+	return (0);
 }
