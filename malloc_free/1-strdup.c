@@ -8,6 +8,16 @@
  *
  * Return: Un pointeur vers la copie de la chaîne, ou NULL si échec.
  */
+int _strlen(char *s)
+{
+	int i;
+
+	for (i = 0; s[i] != '\0'; i++)
+	;
+
+	return (i);
+}
+
 char *_strdup(char *str)
 {
 	int i;
@@ -18,7 +28,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	copie = malloc(strlen(str) + 1);
+	copie = malloc(_strlen(str) + 1);
 
 	if (copie == 0)
 	{
