@@ -3,7 +3,7 @@
 
 char *create_array(unsigned int size, char c)
 {
-	chartab;
+	char *tab;
 	unsigned int i;
 
 	if (size == 0)
@@ -11,8 +11,8 @@ char *create_array(unsigned int size, char c)
 
 	tab = malloc(size * sizeof(char));
 
-	if (tab == NULL)
-		return (NULL);
+	if (tab == 0)
+	return (NULL);
 
 	for (i = 0; i < size; i++)
 	{
