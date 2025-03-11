@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _strdup - Crée une copie dynamique d'une chaîne de caractères.
+ * _strlen - Retourne la longueur d'une chaîne de caractères.
  *
- * @str: La chaîne à dupliquer.
+ * @s: Pointeur vers la chaîne de caractères.
  *
- * Return: Un pointeur vers la copie de la chaîne, ou NULL si échec.
+ * Return: La longueur de la chaîne (nombre de caractères avant le '\0').
  */
 int _strlen(char *s)
 {
@@ -17,6 +17,13 @@ int _strlen(char *s)
 
 	return (i);
 }
+/**
+ * _strdup - Crée une copie dynamique d'une chaîne.
+ *
+ * @str: La chaîne à copier.
+ *
+ * Return: Un pointeur vers la copie, ou NULL en cas d'échec.
+ */
 
 char *_strdup(char *str)
 {
