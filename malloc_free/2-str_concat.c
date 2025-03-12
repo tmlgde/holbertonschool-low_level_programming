@@ -30,8 +30,8 @@ int _strlen(char *s)
 char *str_concat(char *s1, char *s2)
 {
 	char *nvlchaine;
-	int i;
-	int j;
+	unsigned int i;
+	unsigned int j;
 
 	if (!s1)
 	{
