@@ -24,7 +24,7 @@ int _strlen(char *s)
  * @s1: Première chaîne à concaténer.
  * @s2: Deuxième chaîne à concaténer.
  *
- * Return: Un pointeur vers la nouvelle chaîne concaténée, oULL
+ * Return: Un pointeur vers la nouvelle chaîne concatén� NULL
  */
 
 char *str_concat(char *s1, char *s2)
@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (!s2)
 	{
-		s1 = ("");
+		s2 = ("");
 	}
 
 	nvlchaine = malloc(_strlen(s1) + _strlen(s2) + 1);
