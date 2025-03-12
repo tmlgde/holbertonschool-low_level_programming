@@ -30,7 +30,7 @@ char *_strdup(char *str)
 	int i;
 	char *copie;
 
-	if (*str == 0)
+	if (str == 0)
 	{
 		return (NULL);
 	}
