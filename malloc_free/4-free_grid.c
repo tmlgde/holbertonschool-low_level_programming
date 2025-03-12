@@ -7,8 +7,8 @@
  * @grid: Le tableau 2D à libérer.
  * @height: La hauteur de la grille.
  *
- * Description: Cette fonction libère la mémoire allouée pour chaque ligne du tableau
- * 2D, puis libère également la mémoire pour le tableau principal qui contient les
+ * Descr: fonction libère la mémoire allouée pour chaque ligne du table
+ * 2D, puis libère également la mémoireur tableau principal qui contient
  * pointeurs vers les lignes.
  */
 void free_grid(int **grid, int height)
