@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _calloc - Alloue de la mémoire pour un tableau d'éléments et initialise à 0.
+ * _calloc - Alloue de la mémoire pou tableau d'éléments et initiali
  * @nmemb: Nombre d'éléments.
  * @size: Taille de chaque élément.
  *
@@ -39,4 +39,3 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	return (resultat);
 }
-	
