@@ -6,6 +6,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *resultat;
 	int taille_totale;
+	int i;
 
 	if (!nmemb)
 	{
@@ -25,7 +26,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
-	memset(resultat, 0, taille_totale);
+	for (i = 0; i < taille_totale; i++)
+	{
+		resultat[i] = 0;
+	}
+
 	return (resultat);
 }
 	
