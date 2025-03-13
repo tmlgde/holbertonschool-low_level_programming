@@ -22,7 +22,7 @@ int *array_range(int min, int max)
 	if (tableau == 0)
 		return (NULL);
 
-	for (i = 0; i < (max - min); i++)
+	for (i = 0; i <= (max - min); i++)
 		tableau[i] = min + i;
 
 	return (tableau);
