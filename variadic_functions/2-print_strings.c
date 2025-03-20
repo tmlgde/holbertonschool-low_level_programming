@@ -1,7 +1,11 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-
+/**
+ * print_strings - Affiche les chaînes de caractères avec un séparateur.
+ * @separator: Séparateur entre les chaînes.
+ * @n: Nombre de chaînes.
+ */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
