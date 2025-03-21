@@ -2,7 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-
+/**
+ * print_all - Affiche différents types d'arguments.
+ * @format: La chaîne de format indiquant les types des arguments.
+ * Utilise va_list pour gérer les arguments variadiques et les affiche.
+ */
 void print_all(const char * const format, ...)
 {
 	unsigned int i = 0;
