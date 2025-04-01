@@ -4,11 +4,11 @@
 #include <string.h>
 
 /**
- * add_node - Ajoute un nœud au début de la liste.
- * @head: Pointeur vers la tête de la liste.
- * @str: Chaîne à ajouter.
+ * add_node - Adds a new node at the beginning of the list.
+ * @head: Pointer to the first element in the list.
+ * @str: String to be added to the new node.
  *
- * Retourne l'adresse du nouveau nœud ou NULL en cas d'échec.
+ * Return: The address of the new element, or NULL if it failed.
  */
 
 
@@ -23,13 +23,13 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	new_node->str = strdup(str); // dupliquer la chaine
-	new_node->len = strlen(str); // calculer la chaine
+	new_node->str = strdup(str);
+	new_node->len = strlen(str);
 
-	if (new_node->str == NULL) // verifier si la chaine n'est pas nulle
+	if (new_node->str == NULL)
 	{
-		free(new_node); // libere l'espace si la duplication echoue
-		return (NULL); // puis retourner NULL
+		free(new_node);
+		return (NULL);
 	}
 
 	new_node->next = *head;
