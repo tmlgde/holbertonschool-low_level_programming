@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
+/**
+ * print_list - Affiche les el©e©ments d'une liste cinee
+ * @h: Pointeur vers le premier noeud.
+ *
+ * Return: Nombre total de noeuds.
+ */
 
 size_t print_list(const list_t *h)
 {
@@ -22,4 +28,4 @@ size_t print_list(const list_t *h)
 	h = h->next;
 	}
 	return (count);
-}	
+}
